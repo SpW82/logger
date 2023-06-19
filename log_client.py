@@ -18,8 +18,6 @@ class Client(object):
 		self.port = port
 		self.ip = ip
 
-
-
 	def on_press(self, key):
 		with socket(AF_INET, SOCK_STREAM) as s:
 			if s.connect_ex((self.ip, self.port)):
