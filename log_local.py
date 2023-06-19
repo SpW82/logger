@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from pynput.keyboard import Key, Listener
 from datetime import datetime
 
